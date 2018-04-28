@@ -6,7 +6,7 @@ apiRequests.getOptions = function(url) {
         method: 'GET',
 		url: 'http://canvas.instructure.com/api/v1/' + url,
 		headers: {
-			Authorization: 'Bearer 1009~76QRZKmxDZHwKuyoKuGlCafjTipBiVZwpbTlTkyfKI73LZePXJLmVNdg4eDLOM2k'
+			Authorization: ''//Token generated from canvas
 		}
     }
 }
